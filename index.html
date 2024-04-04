@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>CARTA FORBICE SASSO</title>
+</head>
+<body class="overflow-x-hidden">
+    <nav class="h-[70px] bg-purple-600">
+        <div class="p-5 flex justify-center items-center text-[15px] md:text-[20px] font-bold font-2xl text-white text-center">
+           BENVENUTO!   CARTA   FORBICE   SASSO  SIMULATOR
+        </div>
+    </nav>
+
+    <main class="p-10">
+        <div class="flex justify-between items-center px-[1%] md:px-[13%] pb-5" id="containernomi">
+            <div class="flex  items-center h-[50px] font-bold border-2 border-slate-400 rounded-full px-12 bg-slate-300">PLAYER</div>
+            <div class="flex  items-center h-[50px] font-bold border-2 border-slate-400 rounded-full px-12 bg-slate-300">CPU</div>
+        </div>
+
+        <div class="flex justify-around items-center py-10" id="containerimgsceltepunti">
+            <div class="flex justify-between items-center h-[50px] rounded-full" id="userimg"><img class="w-[100px]" src="assets/utente.png"></div>
+            <div class="flex justify-between items-center font-bold h-[50px] bg-slate-300 rounded-full p-5" id="punteggio">X | Y</div>
+            <div class="flex justify-between items-center h-[50px] rounded-full" id="computerimg"><img class="w-[100px]" src="assets/pc.png"></div>
+        </div>
+
+        <div class="flex justify-around items-center rounded-full font-bold text-2xl py-6" id="containersceltasimbolo">
+            SCEGLI UN SIMBOLO!
+        </div>
+
+        <div class="flex justify-evenly md:justify-center items-center mt-14">
+            <div id="sasso"><img  class="w-[70px] md:mx-[70px] border-3 border-slate-400 rounded-full p-3 hover:bg-purple-300" src="assets/sasso.png"></div>
+            <div id="carta"><img  class="w-[70px] border-3 md:mx-[70px] border-slate-400 rounded-full p-3 hover:bg-purple-300" src="assets/carta.png"></div>
+            <div id="forbice"><img  class="w-[70px] border-3 md:mx-[70px] border-slate-400 rounded-full p-3 hover:bg-purple-300" src="assets/forbice.png"></div>
+        </div>
+    </main>
+
+    <footer class="h-[43vh] bg-slate-800">
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
